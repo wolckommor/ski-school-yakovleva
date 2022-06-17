@@ -1,0 +1,106 @@
+/* Fonts */
+
+/* oswald-500 - latin_cyrillic */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/oswald-v48-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/oswald-v48-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* montserrat-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v24-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v24-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-500 - latin_cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/montserrat-v24-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v24-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* Common */
+
+/* Header */
+.header-btn {
+  font-family: 'Montserrat', serif;
+  font-size: 24px;
+}
+.header-phone {
+  font-family: 'Montserrat', serif;
+  font-size: 28px;
+}
+
+.promo-title {
+  font-family: 'Oswald', serif;
+  font-size: 60px;
+  text-align: center;
+  line-height: 89px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #060D10;
+}
+
+.promo-text {
+  font-family: 'Montserrat', serif;
+  font-size: 32px;
+  text-align: center;
+  line-height: 39px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10
+}
+
+.options-title {
+  font-family: 'Oswald', serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 167%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.options-headline {
+  font-family: 'Oswald', serif;
+  font-family: 32px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 167%;
+  text-transform: uppercase;
+}
+
+.options-text {
+  font-family: 'Montserrat', serif;
+  font-family: 26px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 140%;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.lead-title {
+  font-family: 'Oswald', serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 167%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.lead-btn {
+  font-family: 'Montserrat', serif;
+  font-size: 36px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+}
+
