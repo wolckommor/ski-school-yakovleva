@@ -31,6 +31,15 @@
 
   /* Common */
 
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 1278px;
+    margin: 0 auto;
+  }
+
 /* Header */
 .header-btn {
   font-family: 'Montserrat', serif;
@@ -39,6 +48,22 @@
 .header-phone {
   font-family: 'Montserrat', serif;
   font-size: 28px;
+}
+
+/* Promo */
+
+.promo {
+  text-align: center;
+  background-image: url(../images/promo.jpg);
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promo-fade {
+  padding: 240px 0;
+  background-color: rgb(6, 13, 16, .2);
 }
 
 .promo-title {
@@ -59,6 +84,8 @@
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #060D10
 }
+
+/* Options */
 
 .options-title {
   font-family: 'Oswald', serif;
@@ -86,6 +113,8 @@
   mix-blend-mode: normal;
   opacity: 0.8;
 }
+
+/* Lead */
 
 .lead-title {
   font-family: 'Oswald', serif;
