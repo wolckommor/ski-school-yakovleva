@@ -45,7 +45,7 @@ body {
   }
 
 .btn {
-  display: inline-block;
+  display: flex;
   background: #FFFFFF;
   border: 2px solid #FFFFFF;
   color: #000;
@@ -59,9 +59,9 @@ body {
 }
 
 .btn-transparent {
-  display: block;
+  justify-content: center;
   max-width: 505px;
-  padding: 8px 20px;
+  padding: 20px 108px;
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid #060D10;
   border-radius: 4px;
@@ -196,9 +196,14 @@ body {
   background-size: cover;
 }
 
+.lead-wrap {
+
+}
+
 .lead-info {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding-top: 170px;
   padding-bottom: 130px;
 }
@@ -210,6 +215,7 @@ body {
   line-height: 167%;
   text-align: center;
   text-transform: uppercase;
+  padding-bottom: 60px;
 }
 
 .lead-visual {
@@ -223,6 +229,7 @@ body {
 
 .lead-pic {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-left: 15px;
 }
 
 .lead-btn {
@@ -242,7 +249,19 @@ body {
 
 .footer-wrap {
   display: flex;
-  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.social-span {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+.copyright-wrap {
+  display: inline;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 .social {
